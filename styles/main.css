@@ -33,7 +33,6 @@ nav{
     color: #fefefe;
     letter-spacing: 3px;
     cursor: pointer;
-
 }
 
 .links a, .links a i{
@@ -44,4 +43,70 @@ nav{
 
 .links a i:hover{
     color: #c25f2a;
+}
+.main{
+    color: #fefefe;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.meio{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.meio .btnantes{
+        background-color: rgba(255, 255, 255, 0.5);
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 50px;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.meio .btnantes:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+        transform: translateY(-7px);
+}
+.meio .btndepois{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.meio .btndepois:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-7px);
+}
+.main .btnescolha{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.main .btnescolha:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-7px);
 }
