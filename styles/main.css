@@ -10,46 +10,51 @@
 body {
     overflow: hidden;
   }
-
-.container{
-    position: relative;
+.fundo{
+    position: absolute;
     width: 100%;
     height: 100%;
     background-image: url("../assets/img/corte1.jpg");
     background-size: cover;
+    filter: blur(1vh);
     background-position: center;
+    z-index: -1;
 }
-.container::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5); /* cor de fundo do filtro */
-    filter: blur(10px); /* efeito de filtro a ser aplicado */
-    z-index: -1; /* posicionar o elemento pseudo atrás do conteúdo */
+.container{
+    position: relative;
+    background-color: transparent;
 }
 nav{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    height: 80px;
-    line-height: 80px;
+    height: 10vh;
+    line-height: 10vh;
     z-index: 111;
 }
 
 .logo{
     display: flex;
-    font-size: 20px;
+    font-size: 1.5vw; /* usamos viewport width como unidade de font-size */
     font-weight: 800;
     color: #5e5c5c;
-    letter-spacing: 3px;
+    letter-spacing: 0.1em; /* ajustamos a espessura da letra em relação à font-size */
     cursor: pointer;
+    height: 10vh; /* usamos viewport height como unidade de altura */
+    width: 30%; /* usamos porcentagem como unidade de largura */
+}
+
+/* adicionamos um @media query para ajustar a aparência da classe em telas menores */
+@media (max-width: 768px) {
+    .logo {
+        font-size: 3vw;
+        height: 5vh;
+        width: 50%;
+    }
 }
 
 .links a, .links a i{
-    font-size: 20px;
+    font-size: 1.5vw;
     color: #5e5c5c;
     margin: 25px 10px;
 }
@@ -72,25 +77,25 @@ nav{
 .meio img{
     display: flex;
     align-self: center;
+    height: 75vh;
 }
 .meio .btnantes{
     background-color: rgba(255, 255, 255, 0.5);
     border: none;
-    font-size: 18px;
-    border-radius: 50px;
+    border-radius: 50%;
     text-align: center;
     align-items: center;
     justify-items: center;
     text-decoration: none;
-    display: flex; /* adicionado */
-    justify-content: center; /* adicionado */
-    align-items: center; /* adicionado */
-    height: 100px;
-    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 8%;
     align-self: center;
-    font-size: 50px;
+    font-size: 2vw;
     transition: all 0.3s ease 0s;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0.8rem 1.5rem rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 .meio .btnantes:hover {
@@ -99,24 +104,23 @@ nav{
         transform: translateY(-7px);
 }
 .meio .btndepois{
-        background-color: rgba(255, 255, 255, 0.5);
-        border: none;
-        font-size: 18px;
-        border-radius: 50px;
-        text-align: center;
-        align-items: center;
-        justify-items: center;
-        text-decoration: none;
-        display: flex; /* adicionado */
-        justify-content: center; /* adicionado */
-        align-items: center; /* adicionado */
-        height: 100px;
-        width: 100px;
-        align-self: center;
-        font-size: 50px;
-        transition: all 0.3s ease 0s;
-        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-        cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 8%;
+    align-self: center;
+    font-size: 2vw;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 0.8rem 1.5rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 .meio .btndepois:hover {
     background-color: rgba(255, 255, 255, 0.3);
@@ -126,20 +130,20 @@ nav{
 .main .btnescolha{
     background-color: rgba(255, 255, 255, 0.5);
     border: none;
-    font-size: 18px;
+    font-size: 2vw; /* usamos viewport width como unidade de font-size */
     border-radius: 50px;
-    padding: 16px 32px;
+    padding: 2vh 4vw; /* usamos viewport height e width como unidades de preenchimento */
     text-align: center;
     align-items: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 4vh; /* usamos viewport height como unidade de margem */
     transition: all 0.3s ease 0s;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0.8rem 1.5rem rgba(0, 0, 0, 0.1); /* usamos rem como unidade de sombra */
     cursor: pointer;
 }
+
 .main .btnescolha:hover{
     background-color: rgba(255, 255, 255, 0.3);
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
