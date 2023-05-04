@@ -19,16 +19,8 @@ body {
     filter: blur(1vh);
     background-position: center;
     z-index: -1;
-    animation: fadeIn 0.2s ease-in;
+    transition: background-image 0.5s ease-in-out;
 }
-@keyframes fadeIn{
-    0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
 .container{
     position: relative;
     background-color: transparent;
@@ -103,6 +95,7 @@ nav{
     margin-top: 6vh;
     height: 60vh;
     clip-path: inset(0 0 5vh 0);
+    transition: opacity 0.5s ease-in-out;
 }
 .meio img:hover{
     animation: balanca 2s linear infinite;
@@ -194,19 +187,3 @@ nav{
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
     transform: translateY(-7px);
 }
-@keyframes fadeOut{
-    0% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-      }
-    }
-@keyframes fadeIn{
-        0% {
-            opacity: 0;
-          }
-          100% {
-            opacity: 1;
-          }
-        }

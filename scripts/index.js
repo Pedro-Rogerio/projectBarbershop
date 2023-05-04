@@ -19,41 +19,55 @@ const detalhes = [
 let indice = 0;
 let indice2 = 1;
 
-// Define a função para alternar a imagem de fundo do elemento
 function proximaImagemDeFundo() {
-  // Seleciona a próxima imagem de fundo no array
-  // Obtém o elemento que terá a imagem de fundo alterada
   const elemento = document.getElementById("fundo");
   const novaImagemDeFundo = fundo[indice];
-  // Define a nova imagem de fundo no elemento
-  elemento.style.backgroundImage = novaImagemDeFundo;
-  // Incrementa o índice para apontar para a próxima imagem de fundo no array
+  
+  setTimeout(() => {
+    elemento.style.backgroundImage = novaImagemDeFundo;
+  }, 500);
+  
   indice = (indice + 1) % fundo.length;
-    // Seleciona a próxima imagem de fundo no array
-  // Obtém o elemento que terá a imagem de fundo alterada
+
   const elemento2 = document.getElementById("foto");
   const novaImagemDeFrente = detalhes[indice];
-  // Define a nova imagem de fundo no elemento
-  elemento2.src = novaImagemDeFrente;
-  // Incrementa o índice para apontar para a próxima imagem de fundo no array
+  
+  // Define a opacidade da imagem para zero
+  elemento2.style.opacity = 0;
+  
+  // Aguarda 0,2 segundos antes de alterar a imagem
+  setTimeout(() => {
+    elemento2.src = novaImagemDeFrente;
+    
+    // Define a opacidade da imagem de volta para 1
+    elemento2.style.opacity = 1;
+  }, 200);
+  
   indice2 = (indice2 + 1) % detalhes.length;
-
 }
 
+
 function anteriorImagemDeFundo() {
-    // Obtém o elemento que terá a imagem de fundo alterada
-    const elemento = document.getElementById("fundo");
-    // Obtém a imagem de fundo anterior no array
-    indice = (indice - 1 < 0) ? fundo.length - 1 : indice - 1;
-    const novaImagemDeFundo = fundo[indice];
-    // Define a nova imagem de fundo no elemento
+  const elemento = document.getElementById("fundo");
+  indice = (indice - 1 < 0) ? fundo.length - 1 : indice - 1;
+  const novaImagemDeFundo = fundo[indice];
+
+  setTimeout(() => {
     elemento.style.backgroundImage = novaImagemDeFundo;
-    // Obtém o elemento que terá a imagem da frente alterada
-    const elemento2 = document.getElementById("foto");
-    // Obtém a imagem da frente anterior no array
-    indice2 = (indice2 - 1 < 0) ? detalhes.length - 1 : indice2 - 1;
+  }, 500);
+
+  const elemento2 = document.getElementById("foto");
+  indice2 = (indice2 - 1 < 0) ? detalhes.length - 1 : indice2 - 1;
+
+  // Define a opacidade da imagem para zero
+  elemento2.style.opacity = 0;
+
+  // Aguarda 0,2 segundos antes de alterar a imagem
+  setTimeout(() => {
     const novaImagemDeFrente = detalhes[indice2];
-    // Define a nova imagem da frente no elemento
     elemento2.src = novaImagemDeFrente;
 
-  }
+    // Define a opacidade da imagem de volta para 1
+    elemento2.style.opacity = 1;
+  }, 200);
+}
