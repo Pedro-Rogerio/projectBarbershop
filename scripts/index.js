@@ -24,6 +24,9 @@ function proximaImagemDeFundo() {
   // Seleciona a próxima imagem de fundo no array
   // Obtém o elemento que terá a imagem de fundo alterada
   const elemento = document.getElementById("fundo");
+  
+  elemento.style.animation = "fadeOut";
+
   const novaImagemDeFundo = fundo[indice];
   // Define a nova imagem de fundo no elemento
   elemento.style.backgroundImage = novaImagemDeFundo;
@@ -32,16 +35,23 @@ function proximaImagemDeFundo() {
     // Seleciona a próxima imagem de fundo no array
   // Obtém o elemento que terá a imagem de fundo alterada
   const elemento2 = document.getElementById("foto");
+
+  elemento2.style.animation = "fadeOut";
+  
   const novaImagemDeFrente = detalhes[indice];
   // Define a nova imagem de fundo no elemento
   elemento2.src = novaImagemDeFrente;
   // Incrementa o índice para apontar para a próxima imagem de fundo no array
   indice2 = (indice2 + 1) % detalhes.length;
+
 }
 
 function anteriorImagemDeFundo() {
     // Obtém o elemento que terá a imagem de fundo alterada
     const elemento = document.getElementById("fundo");
+
+    elemento.style.animation = "fadeOut";
+
     // Obtém a imagem de fundo anterior no array
     indice = (indice - 1 < 0) ? fundo.length - 1 : indice - 1;
     const novaImagemDeFundo = fundo[indice];
@@ -49,9 +59,12 @@ function anteriorImagemDeFundo() {
     elemento.style.backgroundImage = novaImagemDeFundo;
     // Obtém o elemento que terá a imagem da frente alterada
     const elemento2 = document.getElementById("foto");
+    
+    elemento2.style.animation = "fadeOut";
     // Obtém a imagem da frente anterior no array
     indice2 = (indice2 - 1 < 0) ? detalhes.length - 1 : indice2 - 1;
     const novaImagemDeFrente = detalhes[indice2];
     // Define a nova imagem da frente no elemento
     elemento2.src = novaImagemDeFrente;
+
   }
