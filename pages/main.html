@@ -7,29 +7,34 @@
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://kit.fontawesome.com/8326d5f8c6.js" crossorigin="anonymous"></script> <!--Inserção do script para os icones-->
+    <script src="../scripts/index.js"></script>
     <title>Barbershop</title>
 </head>
 <body> 
-    <div class="fundo"></div>
+    <div id="fundo"></div>
     <div class="container">
 
         <nav><!--Barra de navegação-->
             <div class="logo">BarberShop</div><!--Logo que pode ser substituído por uma imagem-->
+            <ul class="navItems">
+                <li><a href="../pages/main.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Schedule</a></li>
+            </ul>
             <div class="links"><!--Social Midia-->
                 <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
         </nav>
         <div class="main">
             <div class="meio">
-                <div class="btnantes"><i class="fa-solid fa-arrow-left fa-beat" style="color: #252525;"></i></div>
-                <img src="../assets/img/detalhe1.png">
-                <div class="btndepois"><i class="fa-solid fa-arrow-right fa-beat" style="color: #252525;"></i></div>
+                <div class="btnantes" onclick="anteriorImagemDeFundo()"><i class="fa-solid fa-arrow-left fa-beat" style="color: #252525;"></i></div>
+                <img id="foto" src="../assets/img/detalhe1.png">
+                <div class="btndepois" onclick="proximaImagemDeFundo()"><i class="fa-solid fa-arrow-right fa-beat" style="color: #252525;"></i></div>
             </div>
-            <div class="btnescolha">That's the one!  <i class="fa-regular fa-hand-pointer fa-beat-fade"></i>
+            <div class="btnescolha">That's the one!</i>
             </div>
         </div>
 
     </div>
 </body>
-<script src="../scripts/index.js"></script>
 </html>

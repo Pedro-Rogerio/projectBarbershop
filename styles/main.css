@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Poppins);
+/*@import url(https://fonts.google.com/specimen/Poppins);*/
 
 *{
     margin: 0;
@@ -10,7 +10,7 @@
 body {
     overflow: hidden;
   }
-.fundo{
+#fundo{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -31,6 +31,28 @@ nav{
     height: 10vh;
     line-height: 10vh;
     z-index: 111;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.navItems{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navItems li{
+    list-style: none;
+    margin: 0 0.1em;
+    padding-inline: 5em;
+}
+
+.navItems li a{
+    font-size: 1vw;
+    color: #5e5c5c;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+.navItems li:hover a, .links a:hover{
+    color: #fefefe;
 }
 
 .logo{
@@ -44,23 +66,14 @@ nav{
     width: 30%; /* usamos porcentagem como unidade de largura */
 }
 
-/* adicionamos um @media query para ajustar a aparência da classe em telas menores */
-@media (max-width: 768px) {
-    .logo {
-        font-size: 3vw;
-        height: 5vh;
-        width: 50%;
-    }
-}
-
 .links a, .links a i{
     font-size: 1.5vw;
     color: #5e5c5c;
-    margin: 25px 10px;
+
 }
 
 .links a i:hover{
-    color: #c25f2a;
+    color: #fefefe;
 }
 .main{
     color: #5e5c5c;
@@ -77,18 +90,25 @@ nav{
 .meio img{
     display: flex;
     align-self: center;
-    height: 75vh;
-    animation: balanca 2s linear infinite;
+    margin-top: 6vh;
+    height: 60vh;
+    animation: balanca 4s linear infinite;
 }
 @keyframes balanca{
     0% {
-        transform: translateX(0);
+        transform: translateX(0) translateY(0) rotate(-2deg);
       }
-      50% {
-        transform: translateX(2vw);
+      25% {
+        transform: translateX(-2vw) translateY(-2vw) rotate(5deg);
+      }
+      50%{
+        transform: translateX(-2vw) translateY(0) rotate(2deg);
+      }
+      75%{
+        transform: translateX(0) translateY(-2vw) rotate(-5deg);
       }
       100% {
-        transform: translateX(0);
+        transform: translateX(0) translateY(0) rotate(-2deg);
       }
     }
 
@@ -106,7 +126,7 @@ nav{
     height: 20%;
     width: 8%;
     align-self: center;
-    font-size: 2vw;
+    font-size: 1vw;
     transition: all 0.3s ease 0s;
     box-shadow: 0px 0.8rem 1.5rem rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -130,7 +150,7 @@ nav{
     height: 20%;
     width: 8%;
     align-self: center;
-    font-size: 2vw;
+    font-size: 1vw;
     transition: all 0.3s ease 0s;
     box-shadow: 0px 0.8rem 1.5rem rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -143,7 +163,7 @@ nav{
 .main .btnescolha{
     background-color: rgba(255, 255, 255, 0.5);
     border: none;
-    font-size: 2vw; /* usamos viewport width como unidade de font-size */
+    font-size: 1vw; /* usamos viewport width como unidade de font-size */
     border-radius: 50px;
     padding: 2vh 4vw; /* usamos viewport height e width como unidades de preenchimento */
     text-align: center;
