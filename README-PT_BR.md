@@ -1,6 +1,6 @@
-## Bakey ModelClique
+## projectBarbershop
 
-Este projeto é uma demonstração de minhas habilidades como desenvolvedor front-end, criando um site de exemplo para uma padaria. O objetivo principal foi apresentar animações de scroll do mouse, divs interativas e design responsivo usando apenas HTML, CSS e JavaScript. Este projeto foi construído com o objetivo de fornecer uma visão geral do meu trabalho, incluindo habilidades de codificação e design. O site é fácil de usar, intuitivo e possui uma interface agradável e limpa. Eu gostaria de agradecer por visitar este projeto e espero que ele forneça uma boa compreensão das minhas habilidades como desenvolvedor front-end.
+Este projeto é uma demonstração das minhas habilidades de desenvolvimento de front-end, criando um exemplo de website para uma barbearia. O objetivo principal era mostrar uma transição de tela, divs interativas e design responsivo usando apenas HTML, CSS e JavaScript. Este projeto foi construído para fornecer uma visão geral do meu trabalho, incluindo habilidades de codificação e design. O site é acessível ao usuário, intuitivo e possui uma interface agradável e limpa. Gostaria de agradecer por visitar este projeto e espero que ele forneça uma boa compreensão das minhas habilidades de desenvolvimento de front-end.
 
 ## 🚀 Começando
 
@@ -64,24 +64,17 @@ Para implantar sua página web em um provedor, siga estes passos:
 
 ## 📄 Licença
 
-Este projeto está sob a licença (MIT) - veja o arquivo [LICENSE.md](https://github.com/Pedro-Rogerio/projectBakery/blob/main/LICENSE.MD) para detalhes.
+Este projeto está sob a licença (MIT) - veja o arquivo [LICENSE.md](https://github.com/Pedro-Rogerio/projectBarbershop/blob/main/LICENSE.MD) para detalhes.
 
 ## 🎁 Expressões de gratidão
 
-**Para Ar Shakir**
 
-* Queria aproveitar este momento para expressar minha gratidão pelo incrível exemplo de design de UI que você compartilhou na internet. Como estudante de ciência da computação do Brasil, recentemente usei seu design como base para criar uma página da web para aprimorar minhas habilidades de programação, e não teria conseguido sem o seu exemplo.
+**Para Eduardo Augusto, Lucas Rodrigues, Matheus Albano, Pedro Cisdelli e Thyago Rodrigues**
 
-* Sua atenção aos detalhes e olhar para o design são verdadeiramente impressionantes, e aprendi muito ao trabalhar com seu design. Foi um prazer traduzir sua bela imagem em uma página da web funcional, e estou muito orgulhoso do resultado.
+* Queria tomar um momento para expressar minha sincera gratidão por sua valiosa contribuição e sugestões sobre o aspecto inicial de nossa página da web. Seus insights e orientações foram fundamentais na formatação do layout e design, e não poderíamos ter alcançado o atual nível de sucesso sem o seu apoio.
 
-* Mais uma vez, obrigado por compartilhar seus talentos e conhecimentos com o mundo. Sua generosidade e bondade são muito apreciadas, e espero continuar aprendendo com seus exemplos no futuro.
+* Sua dedicação, comprometimento e profissionalismo em oferecer feedback construtivo foram inestimáveis. Suas sugestões nos ajudaram a criar uma página da web mais envolvente e acessível ao usuário, que foi apreciada pelos nossos usuários.
 
-**Para Pedro Cisdelli**
-
-* Queria aproveitar este momento para expressar minha sincera gratidão por sua ajuda e orientação em meu trabalho de front-end. Sua expertise e conhecimento neste campo têm sido inestimáveis ​​para mim, e não teria alcançado meus objetivos sem sua ajuda.
-
-* Sua disposição em compartilhar seu tempo e conhecimento tem sido verdadeiramente inspiradora. Agradeço a orientação que você me proporcionou, desde responder às minhas perguntas até oferecer conselhos sobre como melhorar minhas habilidades de codificação. Você tem sido um excelente mentor e guia durante todo o processo, e sou muito grato por seu apoio.
-
-* Estou orgulhoso do trabalho que realizei sob sua orientação e me sinto confiante em minhas habilidades para seguir em frente. Mais uma vez, obrigado por sua ajuda e suporte. Você teve um impacto significativo em meu desenvolvimento como desenvolvedor de front-end.
+* Mais uma vez, expresso meus sinceros agradecimentos a todos vocês por dedicar tempo para revisar e compartilhar suas ideias conosco. Somos gratos por sua contribuição e esperamos trabalhar com todos vocês no futuro.
 
 ---

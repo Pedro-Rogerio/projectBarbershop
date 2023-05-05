@@ -1,6 +1,6 @@
 ## projectBarbershop
 
-This project is a demonstration of my front-end development skills, creating an example website for a bakery. The main goal was to showcase mouse scroll animations, interactive divs, and responsive design using only HTML, CSS, and JavaScript. This project was built to provide an overview of my work, including coding and design skills. The site is user-friendly, intuitive, and has a pleasant and clean interface. I would like to thank you for visiting this project and hope it provides a good understanding of my front-end development skills.
+This project is a demonstration of my front-end development skills, creating an example website for a barberShop. The main goal was to showcase one screen transition, interactive divs, and responsive design using only HTML, CSS, and JavaScript. This project was built to provide an overview of my work, including coding and design skills. The site is user-friendly, intuitive, and has a pleasant and clean interface. I would like to thank you for visiting this project and hope it provides a good understanding of my front-end development skills.
 
 ## 🚀 Starting
 
@@ -58,14 +58,23 @@ It's important to remember that each hosting provider may have its own specific 
 ## ✒️ Authors
 
 * **Pedro Rogério** - *Front-end Developer* - [Pedro-Rogerio](https://github.com/Pedro-Rogerio)
+* **Lucas Rodrigues** - *Colaborator* - [lucasrc18](https://github.com/lucasrc18)
+* **Pedro Cisdelli** - *Colaborador* - [sprmbng](https://github.com/sprmbng)
+* **Eduardo Augusto** - *Colaborator* - [eduardomedeiros22](https://github.com/eduardoamedeiros22)
+* **Matheus Albano** - *Colaborator* - [albanomatheus](https://github.com/albanomatheus)
+* **Thyago Rodrigues** - *Colaborator* - [TRP0909](https://github.com/TRP0909)
 
 
 ## 📄 License
 
-This project is under license (MIT) - see the [LICENSE.md](https://github.com/Pedro-Rogerio/projectBakery/blob/main/LICENSE.MD) file for details.
+This project is under license (MIT) - see the [LICENSE.md](https://github.com/Pedro-Rogerio/projectBarbershop/blob/main/LICENSE.MD) file for details.
 
 ## 🎁 Expressions of Gratitude
 
-**To Ar Shakir**
+**To Eduardo Augusto, Lucas Rodrigues, Matheus Albano, Pedro Cisdelli e Thyago Rodrigues**
 
-* I wanted to take a moment to express my gratitude for the amazing UI design example you shared on the internet. As a student of computer science f
+* I wanted to take a moment to express my sincere gratitude for your valuable input and suggestions regarding the initial aspect of our webpage. Your insights and guidance were instrumental in shaping the layout and design, and we could not have achieved the current level of success without your support.
+
+* Your dedication, commitment, and professionalism in offering constructive feedback have been invaluable. Your suggestions have helped us create a more engaging and user-friendly webpage that has been appreciated by our users.
+
+* Once again, I express my heartfelt thanks to all of you for taking the time to review and share your ideas with us. We are grateful for your contribution and look forward to working with you all in the future.
