@@ -1,6 +1,6 @@
 ## projectBarbershop
 
--This project is a demonstration of my front-end development skills, creating an example website for a bakery. The main goal was to showcase mouse scroll animations, interactive divs, and responsive design using only HTML, CSS, and JavaScript. This project was built to provide an overview of my work, including coding and design skills. The site is user-friendly, intuitive, and has a pleasant and clean interface. I would like to thank you for visiting this project and hope it provides a good understanding of my front-end development skills.
+This project is a demonstration of my front-end development skills, creating an example website for a bakery. The main goal was to showcase mouse scroll animations, interactive divs, and responsive design using only HTML, CSS, and JavaScript. This project was built to provide an overview of my work, including coding and design skills. The site is user-friendly, intuitive, and has a pleasant and clean interface. I would like to thank you for visiting this project and hope it provides a good understanding of my front-end development skills.
 
 ## 🚀 Starting
 
